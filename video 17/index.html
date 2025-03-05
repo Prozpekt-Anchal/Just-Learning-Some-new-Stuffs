@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS  Selector</title>
+    <style>
+        /* this is element selector
+         */
+         div.b{
+            color: green;
+            background-color: aqua;
+          } 
+          .main{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+          }
+         p.b{
+            text-decoration: underline;
+            /* background-color: blue; */
+         }
+         /* This is a Class Selector  */
+         .pink{
+            color: palevioletred;
+         }
+         /* Id Selector  */
+         #yellow{
+            color: yellowgreen;
+         }
+         /* CSS Box MOdel  */
+         *{
+            padding: 0px;
+            margin: 0px;
+         }
+         .box1{
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid black;
+            height: 30px;
+            box-sizing: border-bo;
+        
+         }
+         .box2{
+            background-color: palevioletred;
+            padding: 10px;
+            border: rgb(18, 200, 169) solid 4px;
+            margin: 10px;
+         }
+         /* font section start here  */
+         .fonts{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+            font-size: 55px;
+            font-weight: 00;
+            text-decoration: underline ;
+            text-decoration-color: blueviolet;
+            
+         }
+         div.a{
+            text-indent: 30px;
+            border: 5px solid maroon;
+            background-color: beige;
+            padding: 10px;
+            margin-top: 15px;
+            height: 220px;
+            width: 150px;
+            
+         }
+               
+
+    </style>
+  </head>
+  <body>
+    <div class="pink box1">
+        This is your boy.
+    </div>
+   
+    <p class="box2">
+        Or kya haal chal.
+       Koi dikkat pareshani.
+    </p>
+    <!-- CLASS SELECTOR      -->
+     <p class="pink">
+        finally comeback ho gaya
+     </p>
+     <!-- ID SELECTOR  -->
+      <p id="yellow"> Bhook lag rahi jaldi jaldi kar leta hoon. </p>
+      <div class="box2"> Blinding Light by The Weekend </div>
+      <h1 class="fonts">
+         About fonts
+      </h1>
+      <div class="main">
+         <div class="a">
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae voluptate rem laudantium facilis odit culpa fugiat hic quae tenetur esse aut itaque reprehenderit ut voluptas nam accusamus, rerum maxime.
+            </p>
+         </div>
+         <div class="a">
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae voluptate rem laudantium facilis odit culpa fugiat hic quae tenetur esse aut itaque reprehenderit ut voluptas nam accusamus, rerum maxime.
+            </p>
+            <h1 style="margin-top: 5vmax;  ">Hey bitches, I am Anchal Thakur</h1>
+         </div>
+         <div class="a">
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae voluptate rem laudantium facilis odit culpa fugiat hic quae tenetur esse aut itaque reprehenderit ut voluptas nam accusamus, rerum maxime.
+            </p>
+         </div>
+      </div>
+      
+  </body>
+</html>

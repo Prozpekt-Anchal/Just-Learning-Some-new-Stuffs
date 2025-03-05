@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+   <style>
+ 
+    *{
+        padding: 0;
+        margin: 0;
+        
+    }
+    ul li{
+        list-style: none;
+        margin: 5px;
+        padding: 5px;
+    }
+    ul{
+        display: flex;
+    }
+    .nav{
+        background-color: aqua;
+    }
+    .container{
+        background-color: rgb(179, 247, 247);
+    }
+    body{
+        background-color: yellow;
+    }
+    @media only screen and (max-width: 455px) {
+        body{
+          background-color: brown;
+            
+        }
+        .boxes{
+            flex-direction: column;
+        }
+    }
+    .box{
+        border: 2px solid maroon;
+        margin: 5px;
+        padding: 5px;
+        height: 240px;
+        width: 200px;
+        background-color: aquamarine;
+    }
+    .boxes{
+        display: flex;
+    }
+   </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, fugiat saepe, fugit, amet molestias vero molestiae perferendis sit enim nesciunt labore? Maxime eaque, ducimus unde molestiae commodi quod debitis suscipit, dolorum totam reiciendis amet veniam nisi at aperiam perferendis nihil natus, ipsum nulla labore cupiditate?
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

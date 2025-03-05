@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+          border: solid black 8px;
+          height: 100vh;
+          display: grid;
+          grid-template-areas: "nav nav nav" "side article article" " footer footer footer ";
+          gap: 5px;
+          justify-items: center;
+          align-items: center ;
+          
+        }
+        .el{
+            border: solid red ;
+            height: 78px;
+            width: 78px;
+          
+            
+            background-color: cadetblue;
+        }
+        .el4{
+           grid-area: nav;
+           background-color: yellowgreen ;
+        }
+        .el1{
+           grid-area: article;
+           background-color: blanchedalmond;
+        }
+        .el2{
+           grid-area: side;
+           background-color: aqua;
+        }
+        .el3{
+           grid-area: footer;
+           background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="el el1">2</div>
+        <div class="el el2 ">3</div>
+        <div class="el el4">4</div>
+        <div class="el el3">44</div>
+        <div class="el ">5</div>
+        <div class="el">6</div>
+        <div class="el">7</div>
+        <div class="el">8</div>
+    </div>
+</body>
+</html>
