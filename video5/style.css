@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+}
+table{
+    border: 10px solid yellow;
+}
+td{
+    border: 5px solid aqua;
+}
+th{
+    border: 5px solid aqua;
+}
